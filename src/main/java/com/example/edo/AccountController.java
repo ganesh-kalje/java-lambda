@@ -24,7 +24,7 @@ public class AccountController {
 	@RequestMapping(path = "/getPolicies", method = RequestMethod.GET)
 	public Map<String, String> getPolicies() {
 		 HashMap<String, String> map = new HashMap<>();
-		    map.put("name_1", "Policie One");
+		    map.put("Test_app", "Policie One");
 		    map.put("name_2", "Policie two");
 		    map.put("name_3", "Policie three");
 		    return map;
